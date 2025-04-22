@@ -270,13 +270,13 @@
 	position: relative;
 }
 /* (2->6) All divs in .content should participate in flex but the .buttonHolder */
-/* .content > div:not(.buttonHolder) {
+.content > div:not(.buttonHolder) {
 	flex-shrink: 0;
-} */
+}
 /* (7) buttonHolder as sticky */
-/* .content .buttonHolder {
+.content .buttonHolder {
   position: sticky;
   bottom: 0;
   padding: 1rem;
   z-index: 100;
-} */
+}
