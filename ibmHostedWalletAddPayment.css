@@ -274,9 +274,9 @@
 	flex-shrink: 0;
 }
 /* (7) buttonHolder as sticky */
-/* .content .buttonHolder {
+.content .buttonHolder {
   position: sticky;
   bottom: 0;
-  padding: 1rem;
+/*   padding: 1rem; */
   z-index: 100;
-} */
+}
