@@ -261,14 +261,14 @@
 }
 
 /* (1) Override .content to ensure flex as column with a dynamic scrollbar */
-/* .content {
+.content {
 	display: flex;
 	flex-direction: column;
 	flex-wrap: unset;
 	align-items: unset;
 	height: 100vh;
 	position: relative;
-} */
+}
 /* (2->6) All divs in .content should participate in flex but the .buttonHolder */
 .content > div:not(.buttonHolder) {
 	flex-shrink: 0;
