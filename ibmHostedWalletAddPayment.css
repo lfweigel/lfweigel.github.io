@@ -273,6 +273,9 @@
 /* .content > div:not(.buttonHolder) {
 	flex-shrink: 0;
 } */
+.content > div {
+	flex-shrink: 0;
+}
 /* (7) buttonHolder as sticky */
 .content .buttonHolder {
   position: sticky;
