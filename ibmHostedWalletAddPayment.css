@@ -275,7 +275,7 @@
 }
 /* (7) buttonHolder as sticky */
 .content .buttonHolder {
-  position: bottom;
+  position: sticky;
   bottom: 0;
 /*   padding: 1rem; */
   z-index: 100;
